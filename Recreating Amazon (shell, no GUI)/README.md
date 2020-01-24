@@ -1,0 +1,8 @@
+Hash function:
+I implemented the hash function in amazon.cpp by using several helper functions. In order to avoid getting a large number with pow(), I used recursion to translate the password to an unsigned long long. After this, I encrypted the password via the formula, and I added a private member variable to the user class to store the password.
+
+Heap:
+Most of the heap functions were similar to the hw5 functions. However, since we added a map to access the location of the items, I had to additionally swap the locations of the items inside the map whenever I used the swap funciton. The decreasekey() was simple in that it searched for the key and changed the priority accordingly if it was smaller than the original priority. Then, after I changed the value, I called trickleup() on that item in order to place it in its new location.
+
+Product Recommendations:
+I added a new REC command by adding several members functions to access the reviews for each user and the reviews for each product. Then, I implemented the makeSuggestion() function by initially adding the basic similarities for each user in the heap. I used a map to store the priority of each user and updated it accordingly, Then, I used the dijkstra's algorithm to find shorter paths to each user. Then, I used the equations given to calculate the scores of the products that were not reviewed by the current user and had previous reviews from other users.
