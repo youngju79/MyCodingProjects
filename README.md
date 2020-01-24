@@ -1,2 +1,2 @@
 # My-Sample-Code
-A collection of all the projects I have worked on
+A collection of all the projects I have worked on/currently working on
