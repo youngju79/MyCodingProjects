@@ -1,0 +1,203 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Yong Zu Shin | Gallery</title>
+
+    <link rel="stylesheet" href="main.css" />
+
+    <style>
+        #header {
+            background-image: url("https://thetalkingcupboard.files.wordpress.com/2012/08/namja.jpg");
+            height: 310px;
+            background-position: bottom;
+        }
+        h1 {
+            line-height: 310px;
+            font-size: 6em;
+        }
+        h2{
+            padding-left: 40px;
+        }
+        #gallery{
+            width: 1000px;
+            height: 1000px;
+            margin-top: 30px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .row{
+            height: 200px;
+            width: 100%;
+        }
+        .small-img{
+            height: 100%;
+            /* 
+                20px each for margin
+                1000px - 20*4 = 920px
+
+                2px each for border
+                920px - 2*4 = 912px
+                912px / 4 = 228px 
+            */
+            width: 228px;
+        }
+        .medium-img {
+            height: 100%;
+            width: 476px;
+        }
+        .large-img {
+            /* 
+                226*2 = 452px
+                452 + 10*2 + 2*2 = 476px
+            */
+            height: 212%;
+            width: 476px;
+        }
+        .large-img, .medium-img, .small-img{
+            overflow: hidden;
+            border: 1px solid black;
+            float: left;
+            margin: 10px;
+            position: relative;
+        }
+        img {
+            height: 100%;
+            width: auto;
+            position: relative;
+        }
+        .medium-img > img{
+            width: 100%;
+            height: auto;
+        }
+        #rightfloat {
+            float: right;
+        }
+        .caption{
+            background-color: grey;
+            background-color: rgba(0, 0, 0, .6);
+            position: absolute;
+            top: 0px;
+            bottom: 0px;
+            right: 0px;
+            left: 0px;
+            text-align: center;
+            color: white;
+            padding-top: 180px;
+            display: none;
+        }
+        .large-img:hover > .caption{
+            display: block;
+        }
+        .medium-img:hover > .caption{
+            display: block;
+            padding-top: 75px;
+        }
+        .small-img:hover > .caption{
+            display: block;
+            padding-top: 55px;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Gallery</h1>
+    </div> <!--#header-->
+    <div id="nav-wrapper">
+        <div id="nav">
+            <ul>
+                <li>
+                    <a href="twoCol_interest_page.html">Home</a>
+                    <ul>
+                        <li><a href="twoCol_interest_page.html#summary-section">Summary</a></li>
+                        <li><a href="twoCol_interest_page.html#reception-section">Reception</a></li>
+                        <li><a href="twoCol_interest_page.html#interesting-section">Interesting Fact</a></li>
+                    </ul>
+                </li>
+                <li><a id="active-nav" href="gallery.html">Gallery</a></li>
+            </ul>
+            <div class="clearfloat"></div>
+        </div> <!--#nav-->
+    </div> <!--nav-wrapper-->
+    <div id="container">
+        <h2>Innocent Man Scenes</h2>
+        <div id="gallery">
+            <div class="row">
+                <div class="large-img">
+                    <img src="https://koreandramaland.com/wp-content/uploads/2017/04/the-innocent-man-nice-guy-filming-location-episode-9-Chuam-Beach-koreandramaland-b-1452x800.jpg" alt="Sitting on the beach" style="right: 150px;">
+                    <div class="caption">
+                        <p>Kang Maru and Seo Eun-gi sitting on the beach</p>
+                    </div>
+                </div>
+                <div class="medium-img">
+                    <img style="bottom: 50px; " src="https://4.bp.blogspot.com/-XMzfGQvmbwY/UhcIMvuodpI/AAAAAAAAAoM/WmDjfz-wwqs/s1600/Nice+Guy+final+scene+engagement.png" alt="Sitting on beach">
+                    <div class="caption">
+                        <p>Seo Eun-gi doesn't remember who Kang Maru is</p>
+                    </div>
+                </div>
+            </div> <!--#row-->
+            <div class="row">
+                <div class="small-img">
+                    <img src="https://i0.wp.com/www.koreandramafashion.com/wp-content/uploads/2012/11/Han-Jae-Hee-Nice-Guy-fashion2.jpg?resize=650%2C366" alt="">
+                    <div class="caption">
+                        <p>Kang Maru tells Seo Eun-gi that he will help her</p>
+                    </div>
+                </div>
+                <div class="small-img">
+                    <img src="https://joonni.files.wordpress.com/2012/08/nice-guy-13460454819811_2.jpg" alt="">
+                    <div class="caption">
+                        <p>Kang Maru pretends to like Seo Eun-gi</p>
+                    </div>
+                </div>
+            </div> <!--#row-->
+            <div class="clearfloat"></div>
+            <div class="row">
+                <div class="medium-img">
+                    <img src="https://javabeans.files.wordpress.com/2012/09/niceguy2-00014.jpg" alt="">
+                    <div class="caption">
+                        <p>Kang Maru saves Seo Eun-gi when she faints in the airplane</p>
+                    </div>
+                </div>
+                <div class="medium-img">
+                    <img src="https://i.pinimg.com/originals/db/93/7a/db937afa3baa4953c9371246d04b62ab.jpg" alt="">
+                    <div class="caption">
+                        <p>Kang Maru and Seo Eun-gi cry in the rain after a conflict</p>
+                    </div>
+                </div>
+            </div> <!--#row-->
+            <div class="row">
+                <div class="small-img">
+                    <img src="https://kdramachoa.com/wp-content/uploads/2012/10/niceguy09_005.jpg" alt="">
+                    <div class="caption">
+                        <p>Seo Eun-gi goes missing</p>
+                    </div>
+                </div>
+                <div class="small-img">
+                    <img src="https://jediprincess.files.wordpress.com/2012/11/niceguy17-00093.jpg" alt="">
+                    <div class="caption">
+                        <p>Han Jae-Hee gets mad at Tae-Hoon</p>
+                    </div>
+                </div>
+                <div class="small-img">
+                    <img src="https://1.bp.blogspot.com/-e8E3FF3LAN4/UHl_qKlru2I/AAAAAAAAISc/nF2ikNFJxmE/s1600/nice+guy+kdrama+2012+still+%EC%84%B8%EC%83%81+%EC%96%B4%EB%94%94%EC%97%90%EB%8F%84+%EC%97%86%EB%8A%94+%EC%B0%A8%EC%B9%B8%EB%82%A8%EC%9E%90+episode+3+kang+maru+song+joong+ki+%EC%86%A1%EC%A4%91%EA%B8%B0asleep+face+cut+injured.png" alt="">
+                    <div class="caption">
+                        <p>Kang Maru gets injured after a motorcycle incident</p>
+                    </div>
+                </div>
+                <div class="small-img">
+                    <img src="https://1.bp.blogspot.com/-1C4efpY3xsw/UHddG4P6n_I/AAAAAAAAICU/nqMUJR-_cNc/s1600/nice+guy+kdrama+2012+still+%EC%84%B8%EC%83%81+%EC%96%B4%EB%94%94%EC%97%90%EB%8F%84+%EC%97%86%EB%8A%94+%EC%B0%A8%EC%B9%B8%EB%82%A8%EC%9E%90+episode+2+kang+maru+song+joong+ki+%EC%86%A1%EC%A4%91%EA%B8%B0crash.png" alt="">
+                    <div class="caption">
+                        <p>Kang Maru goes after Seo Eun-gi</p>
+                    </div>
+                </div>
+            </div> <!--#row-->
+        </div> <!--#gallery-->
+    </div> <!--#container-->
+    <div id="footer">
+        <p id="citation">University of Southern California © 2020</p>
+    </div> <!-- #footer -->
+</body>
+</html>

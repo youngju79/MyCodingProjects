@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Yong Zu Shin | Calendar</title>
+    <style>
+        #main{
+            width: 1002px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #header {
+            background-image: url("https://i.pinimg.com/originals/5d/97/b8/5d97b8478ab7fefd6af1b85225640e6d.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 400px;
+            border: 1px solid black;
+            line-height: 320px;
+            font-family: Arial;
+        }
+        h1 {
+            color: black;
+            text-align: center;
+            font-size: 4em;
+            text-shadow: 1px 1px 2px black;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        /*
+		    Width of #main = 1002px
+		    # of columns = 7
+		    # of vertical borders = 8
+		    Width of each border = 1px
+
+		    Area for each column:
+			    1002px - 8px = 994px
+
+			    994px / 7 = 142px
+
+		    Browsers will round fractions
+        */
+        th {
+            border: 1px solid black;
+            border-top: none;
+            width: 142px;
+            padding: 5px;
+        }
+        td{
+            border: 1px solid black;
+            width: 142px;
+            padding: 10px;
+            height: 100px;
+            text-align: right;
+            vertical-align: text-top;
+        }
+        .gray{
+            color: lightgray;
+        }
+        #birthday {
+            background-image: url("https://media.npr.org/assets/img/2016/02/28/istock_000044263700_medium_wide-4ff1bd64d60a9b717c67c1cc2d6cc9727b2ea339-s800-c85.jpg");
+            background-size: cover;
+            color: white;
+            text-shadow: 2px 1px 2px black;
+        }
+
+        #cheeseday {
+            background-image: url("https://cdn.shopify.com/s/files/1/0150/0232/products/Pearl_Valley_Swiss_Slices_36762caf-0757-45d2-91f0-424bcacc9892_grande.jpg");
+            background-size: cover;
+            color: white;
+            text-shadow: 2px 1px 2px black;
+        }
+
+        #flagday {
+            background-image: url("https://www.history.com/.image/t_share/MTU3ODc4NTk4Njg1MTA3OTM1/john-birch-society-american-flag-hero-e.jpg");
+            background-size: cover;
+            color: white;
+            text-shadow: 2px 1px 2px black;
+        }
+
+        p {
+            text-align: center;
+            background-color: black;
+            opacity: 0.8;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <h1>June 2020</h1>
+        </div> <!--#header-->
+        <table>
+            <tr>
+                <th>Sun</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+                <th>Sat</th>
+            </tr>
+            <tr>
+                <td class="gray">31</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td id="cheeseday">
+                    4
+                    <p>Cheese Day</p>
+                </td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td id="flagday">
+                    14
+                    <p>Flag Day</p>
+                </td>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+            </tr>
+            <tr>
+                <td id="birthday">
+                    28
+                    <p>My Birthday</p>
+                </td>
+                <td>29</td>
+                <td>30</td>
+                <td class="gray">1</td>
+                <td class="gray">2</td>
+                <td class="gray">3</td>
+                <td class="gray">4</td>
+            </tr>
+        </table>
+    </div> <!--#header-->
+</body>
+</html>
