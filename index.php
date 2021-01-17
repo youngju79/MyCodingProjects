@@ -7,6 +7,6 @@
 	</style>
 </head>
 <body>
-	Hello Youngju!
+	<a href="Sample/final_project/home.php">Final Project</a>
 </body>
 </html>
