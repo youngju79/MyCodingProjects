@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="main.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+
+    <meta name="description" content="The purpose of my website is to inform people of the benefit of eggs and the many ways that you can cook eggs. 
+          The audience of my website can range from experienced cooks who wish to creatively utilize eggs in their recipes to novice cooks who wish to know more about cooking eggs.">
+
+    <title>Yong Zu Shin | Home Page</title>
+    <style>
+        body {
+            background-color: white;
+            padding: 0;
+        }
+        #header {
+            height: 100vh;
+            text-align: center;
+            background: linear-gradient(
+                  rgba(0, 0, 0, 0.5),
+                  rgba(0, 0, 0, 0.5)
+                ),
+                url("http://wallpapercrafter.com/uploads/posts/66263-___food-meal-egg-and-salad-hd.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            padding-top: 40vh;
+        }
+        #container {
+            width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h1 {
+            font-size: 5em;
+            color: black;
+            text-shadow: 0px -1px 20px white;
+            font-family: 'Lora', serif;
+            margin-bottom: 25px;
+        }
+        #nav-menu{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .nav-option {
+            float: left;
+            width: 150px;
+        }
+        .nav-option a {
+            font-family: 'Lora', serif;
+            text-shadow: 0px 0px 15px white;
+            font-size: 2em;
+        }
+        #current-page {
+            color: lightgoldenrodyellow;
+        }
+        .nav-option:hover a {
+            color: white;
+        }
+        h2{
+            text-align: center;
+            font-size: 2.1em;
+            font-family: 'Anonymous Pro', monospace;
+            color: black;
+        }
+        #pic1 {
+            width: 100%;
+            height: 610px;
+            background: url("https://img.huffingtonpost.com/asset/5e7bbf01230000de0ac8b920.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        #description {
+            padding: 50px 50px 0px 50px;
+            height: 230px;
+            font-family: 'Lato', sans-serif;
+            color: #777;
+            line-height: 25px;
+        }
+        #description p{
+            font-size: 1.2em;
+        }
+        #fact {
+            height: 150px;
+            line-height: 150px;
+            background-color: #282E34;
+            padding-left: 80px;
+        }
+        #fact p{
+            margin: 0;
+            color: #ddd;
+            font-family: 'Lato', sans-serif;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div id="container">
+            <h1>Eggsellent</h1>
+            <div id="nav-wrapper">
+                <ul id="nav-menu">
+                    <li class="nav-option">
+                        <a id="current-page" href="HomePage.html">Home</a>
+                    </li>
+                    <li class="nav-option">
+                        <a href="NutritionPage.html">Nutrition</a>
+                    </li>
+                    <li class="nav-option">
+                        <a href="RecipePage.html">Recipes</a>
+                    </li>
+                    <li class="nav-option">
+                        <a href="ContactPage.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="description">
+        <h2>Inspiration</h2>
+        <p>
+            Eggsellent is a website designed to inform people of the benefit of eggs and the many ways that you can cook eggs.
+            Viewers can range from experienced cooks who wish to creatively utilize eggs in their recipes to novice cooks who
+            wish to know more about cooking eggs. This website is also perfect for individuals striving for health and fitness
+            who are looking to supplement eggs into their diet.
+        </p>
+    </div>
+    <div id="pic1"></div>
+    <div id="fact">
+        <p>Fun Fact: Eggs contain the highest quality protein you can buy.</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="scrollFade.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#container').scrollFadeOut(250);
+        });
+    </script>
+</body>
+</html>

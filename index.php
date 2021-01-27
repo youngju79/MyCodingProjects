@@ -7,6 +7,8 @@
 	</style>
 </head>
 <body>
-	<a href="Sample/final_project/home.php">Final Project</a>
+	<a href="Samples/FoodieHub/home.php">FoodieHub</a>
+	<a href="Samples/Eggsellent/HomePage.html">Eggsellent</a>
+	<a href="Samples/SilcRoad/WebContent/homepage.jsp">SilcRoad</a>
 </body>
 </html>
