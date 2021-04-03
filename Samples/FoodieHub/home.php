@@ -42,9 +42,9 @@
     	}
     	#title{
     		text-align: center;
-    		line-height: 760px;
+    		line-height: 950px;
     		font-family: 'Courgette', cursive;
-    		font-size: 5em;
+    		font-size: 5.5em;
     		color: white;
     		text-shadow: 2px 1px 4px black;
     	}
