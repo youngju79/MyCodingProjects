@@ -32,17 +32,19 @@
     <style>
     	#header{
     		width: 100%;
-    		min-height: calc(100vh - 63px);
+    		min-height: calc(100vh - 62px);
     		background: linear-gradient(
 					      rgba(0, 0, 0, 0.3),
 					      rgba(0, 0, 0, 0.3)
 					    ), url(food.jpg);
     		background-size: cover;
     		background-position: left;
+    		display: flex;
+    		align-items: center;
+            justify-content: center;
     	}
     	#title{
     		text-align: center;
-    		line-height: 740px;
     		font-family: 'Courgette', cursive;
     		font-size: 5em;
     		color: white;
