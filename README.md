@@ -1,2 +1,2 @@
 # My-Sample-Code
-A collection of all the projects I have worked on/currently working on
+A collection of all the projects I have worked on/currently working on displayed at https://youngju-portfolio.herokuapp.com
