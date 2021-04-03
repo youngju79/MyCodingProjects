@@ -39,12 +39,10 @@
 					    ), url(food.jpg);
     		background-size: cover;
     		background-position: left;
-    		display: flex;
-    		align-items: center;
-            justify-content: center;
     	}
     	#title{
     		text-align: center;
+    		text-align: 730px;
     		font-family: 'Courgette', cursive;
     		font-size: 5em;
     		color: white;
