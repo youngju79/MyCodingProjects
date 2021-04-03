@@ -42,7 +42,7 @@
     	}
     	#title{
     		text-align: center;
-    		text-align: 730px;
+    		line-height: 730px;
     		font-family: 'Courgette', cursive;
     		font-size: 5em;
     		color: white;
