@@ -1,0 +1,7 @@
+Number of iterations:
+    increase in iterations generally produce a lower mse between the predicted output and the actual output
+Data and Architecture:
+    there is no free lunch. configuration of layers and nodes per layer is typically randomized and tested to find the most optimal configuration for the specific dataset
+Learning rate:
+    smaller learning rates give more optimal weights for the model but it takes longer to train
+    larger learning rates give less optimal weights for the model but it takes faster to train
